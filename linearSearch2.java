@@ -5,7 +5,6 @@ public class linearSearch2 {
         int ans = linearSearch(nums, target);
         System.out.println(ans);
     }
-
     /*
         Search in the array: return the index if item found
         otherwise if item not found return -1
