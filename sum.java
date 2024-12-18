@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class sum {
     public static void main(String[] args) {
-        sum();
+        int ans = sum2();
+        System.out.println(ans);
     }
 
     // return the value
@@ -14,7 +15,9 @@ public class sum {
         System.out.println("Enter number 2: ");
         num2 = in.nextInt();
         sum = num1 + num2;
-        return sum;
+        return sum;                     // function will be like khtm tata bye bye!!
+
+        // System.out.println("This will never execute"); // unreachable statement because return is used earlier.
     }
 
     static void sum () {                                      // when you want to return nothing from the function body we use void in function defination.
