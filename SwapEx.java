@@ -16,8 +16,8 @@ public class SwapEx {
         System.out.println(name);
     }
 
-    static void changeName(String name) {
-        name = "Rahul Rana";
+    static void changeName(String naam) {
+        naam = "Rahul Rana";
     }
 
     static void swap(int a, int b) {
