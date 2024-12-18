@@ -17,7 +17,8 @@ public class SwapEx {
         System.out.println(name);
     }
 
-    static void changeName(String naam) {     // naam is the scope of the function means naam is only accessible in the function body only.
+    static void changeName(String naam) {      // naam is the scope of the function means naam is only available in the function body only.
+                                              // can't access naam and its value from outside the function body.this is known as scoping.
         naam = "Rahul Rana";                 // not changing, creating a new object rahul rana and naam is pointing to that object.
     }
 
