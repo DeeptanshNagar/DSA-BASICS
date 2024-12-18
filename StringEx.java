@@ -1,9 +1,16 @@
+import java.util.Scanner;
+
 public class StringEx {
     public static void main(String[] args) {
         // String message = greet();
         // System.out.println(message);
 
-        String personalized = myGreet("Diptansh Nagar");
+
+        
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = in.next();
+        String personalized = myGreet(name);
         System.out.println(personalized);
     }
 
