@@ -11,8 +11,8 @@ public class SwapEx {
         swap(a, b);
         System.out.println(a + " " + b);
 
-        String name = "Kunal Kushwaha";        // name is reference variable. 
-        // copy of the value of reference variable is passed in next step.
+        String name = "Kunal Kushwaha";         // name is reference variable. 
+                                               // copy of the value of reference variable is passed in next step.
         changeName(name);                     // value of reference variable is passed.
         System.out.println(name);
     }
@@ -23,9 +23,11 @@ public class SwapEx {
                                             // we can't modify strings or change strings cause they are immutable in nature tho.
     }
 
-    static void swap(int a, int b) {
-        int temp = a;
-        a = b;
-        b = temp;
+    static void swap(int num1, int num2) {
+        int temp = num1;
+        num1 = num2;
+        num2 = temp;
+
+        // this change will only be valid in this function scope only.
     }
 }
