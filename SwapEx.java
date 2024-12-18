@@ -17,7 +17,7 @@ public class SwapEx {
     }
 
     static void changeName(String naam) {
-        naam = "Rahul Rana";
+        naam = "Rahul Rana";                 // not changing, creating a new object rahul rana and naam is pointing to that object.
     }
 
     static void swap(int a, int b) {
