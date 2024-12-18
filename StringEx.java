@@ -3,10 +3,14 @@ public class StringEx {
         // String message = greet();
         // System.out.println(message);
 
-        String
+        String personalized = myGreet("Diptansh Nagar");
+        System.out.println(personalized);
     }
 
-
+    static String myGreet(String name) {
+        String message = "Hello " + name;
+        return message;
+    }
 
 
 
