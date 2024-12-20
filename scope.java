@@ -42,6 +42,3 @@ public class scope {
         System.out.println(marks);    // can access inside the func.
     }
 }
-
-
-
