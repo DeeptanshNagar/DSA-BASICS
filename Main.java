@@ -38,5 +38,6 @@ public class Main {
         // int num = null;  // This will throw error coz we can't assign null value to a primitive.
 
 
+        
     }
 }
