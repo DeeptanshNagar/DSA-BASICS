@@ -26,13 +26,16 @@ public class Main {
         String[] arr = new String[4];
         System.out.println(arr[0]);        // Returns null which is a special Literal.
         
+        // String str = null; //allowed.
+        // int num = null; //not allowed.
+
+
         // for(String element : arr){         // Enhanced For Loop
         //     System.out.println(element);
         // }
 
         String str = null;  // We can assign it to non-primitive.
         // int num = null;  // This will throw error coz we can't assign null value to a primitive.
-
 
 
     }
