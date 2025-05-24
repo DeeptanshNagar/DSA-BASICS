@@ -32,7 +32,6 @@ public class scope {
         }
         System.out.println(a);
 
-
     }
 
     // scope means you can access the variable inside that function only, you can't access the same variable outside the function body.
