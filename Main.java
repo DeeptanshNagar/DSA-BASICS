@@ -24,10 +24,10 @@ public class Main {
         // System.out.println(ros[1]);     // [0, 0, 0, 0, 0] this will store like this in heap memory.!
 
         String[] arr = new String[4];
-        System.out.println(arr[0]);        // Returns null which is a special Literal.
+        System.out.println(arr[3]);        // Returns null which is a special Literal.
         
         // String str = null; //allowed.
-        // int num = null; //not allowed.
+        // int num = null; //not allowed. // null is equivalent to none in python.
 
 
         // for(String element : arr){         // Enhanced For Loop
@@ -35,9 +35,9 @@ public class Main {
         // }
 
         String str = null;  // We can assign it to non-primitive.
-        // int num = null;  // This will throw error coz we can't assign null value to a primitive.
+        //int num = null;  // This will throw error coz we can't assign null value to a primitive.
 
 
-        
+
     }
 }
