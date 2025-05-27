@@ -7,10 +7,10 @@ public class leetcodeMaxWealth {
     public int maximumWealth(int[][] accounts) {
         // person = row
         // account = col
-        int ans = Integer.MIN_VALUE;
+        int ans = Integer.MIN_VALUE; //6 //16 //13
         for (int person = 0; person < accounts.length; person++) {
             // when you start a new col, take a new sum for that row
-            int sum = 0;
+            int sum = 0; // resets to zero for every row
             for (int account = 0; account < accounts[person].length; account++) {
                 sum += accounts[person][account];
             }

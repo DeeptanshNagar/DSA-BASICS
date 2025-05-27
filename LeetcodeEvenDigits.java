@@ -3,12 +3,12 @@
 public class LeetcodeEvenDigits {
     public static void main(String[] args) {
         int[] nums = {12,345,2,6,7896};
-        // System.out.println(findNumbers(nums));
-        System.out.println(digits2(7545));
+        System.out.println(findNumbers(nums));
+        // System.out.println(digits2(7545));
     }
 
     static int findNumbers(int[] nums) {
-        int count = 0;
+        int count = 0;   
         for(int num : nums) {
             if(even(num)){
                 count++;
@@ -29,16 +29,6 @@ public class LeetcodeEvenDigits {
         return numberOfDigits % 2 == 0;
     }
 
-    // 2 way to count number of digits in a number
-    static int digits2(int num) {
-
-        if (num < 0) {
-            num = num * -1;
-        }
-
-        return (int)(Math.log10(num)) + 1;
-    }
-
     // count number of digits in a number
     static int digits(int num) {
 
@@ -56,5 +46,15 @@ public class LeetcodeEvenDigits {
             num = num / 10;    // num /= 10
         }
         return count;
+    }
+
+    // 2 way to count number of digits in a number
+    static int digits2(int num) {
+
+        if (num < 0) {
+            num = num * -1;
+        }
+
+        return (int)(Math.log10(num)) + 1;
     }
 }
